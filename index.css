@@ -1,0 +1,442 @@
+*{
+    box-sizing: border-box;
+}
+body{
+margin: 0px;
+}
+.welcome{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(156,120,211);
+    margin: 0px;
+    
+}
+.nav{
+    width: 25%;
+    margin-left: auto;
+    display: flex;
+   height: 50px ;
+   position: relative;
+   top: 50px;
+   justify-content: space-between;
+
+}
+.certificat{
+    height: 50px;
+    width: 180px;
+    background-color: rgb(179,166,223, 0.6);
+    border-radius: 7px 7px 0px 0px;
+    position: relative;
+   
+
+}
+li{
+    list-style-type: none;
+    margin-top: 3px;
+    background-color:rgb(156,120,211, 0.7);
+    border-radius: 3px;
+}
+.cer-img{
+    display: none;
+    margin-top: 53px;
+}
+.cer-img   a{
+    display: block;
+    width: 150px;
+    text-decoration: none;
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   align-items: center;
+}
+.certificat h3{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-left:  10px; 
+    position: absolute;
+    bottom: 0;
+}
+.photo{
+ margin-top: 100px;
+    width: 90%;
+    margin-left: 100px;
+    height: 300px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+ 
+}
+.portret{
+    width: 350px;
+}
+.portret img{
+    width: 350px;
+    border-radius: 50%;
+    border: 5px solid rgb(179,166,223, 0.6);
+    /* transform: rotate(360deg);
+    transition-duration:calc(1000s *10); */
+}
+.hi{
+    width: 46%;
+    margin-left: 150px;
+}
+.hi h3{
+    color: rgb(65, 64, 64);
+    font-style: italic;
+}
+h1{
+    color: rgb(40, 40, 40);
+}
+h2{
+    margin: 0px;
+    width: auto;
+}
+h3{
+    color: grey;
+    margin: 0px;
+}
+h4{
+    color: grey;
+}
+.diplom{
+    height: 50px;
+    width: 180px;
+    background-color: rgb(179,166,223, 0.6);
+    border-radius: 7px 7px 0px 0px;
+    margin-left: 5px;
+}
+
+.diplom h3{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-left:  10px; 
+    position: absolute;
+    bottom: 0;
+}
+
+.dipl-img{
+    display: none;
+    margin-top: 53px;
+}
+.dipl-img  a{
+    display: block;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+.link{
+    height: 50px;
+    width: 160px;
+    background-color: rgb(179,166,223, 0.6);
+    border-radius: 7px 7px 0px 0px;
+    position: relative;
+    margin-left: 5px;
+}
+.link-img{
+    display: none;
+    margin-top: 53px;
+}
+.link   a{
+    display: block;
+    width: 150px;
+    text-decoration: none;
+   font-size: 20px;
+   text-align: center;
+   color: white;
+}
+.link h3{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin: 0px;
+    position: absolute;
+    bottom: 0;
+}
+.total{
+width: 80%;
+margin: 100px auto 150px auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.experience{
+    width: 40%;
+    margin-right: 50px;
+}
+.experience h1{
+    color: rgb(40, 40, 40);
+}
+.insurance h2{
+    margin-top: 12px;
+    color: rgb(40, 40, 40);
+}
+.linia{
+    width: 5px;
+    height: auto;
+    background-color: rgb(156,120,211, 0.6);
+}
+
+.SANATORIUM{
+    margin-top: 100px;
+    color: rgb(40, 40, 40);
+}
+.SANATORIUM h2{
+    margin-top: 12px;
+    color: rgb(40, 40, 40);
+}
+.studing{
+    width: 40%;
+    margin-left: 50px;
+}
+
+footer{
+    background-color: rgb(156,120,211);
+    width: 100%;
+    height: 80px;
+}
+.it-js{
+    margin-top: 100px;
+}
+.it-html{
+    margin-top: 100px;
+}
+.uni{
+    margin-top: 100px;
+}
+.col{
+    margin-top: 100px;
+}
+
+.contact{
+    display: flex;
+    width: 40%;
+   margin: auto;
+    justify-content: space-between;
+    
+}
+.phone{
+    display: flex;
+}
+.emoji img{
+    width: 40px;
+    height: 40px;
+}
+.number{
+color: white;
+align-items: baseline;
+font-size: 20px;
+margin-left: 5px;
+padding-top: 6px;
+}
+.phone img{
+    width: 40px;
+    height: 40px;
+}
+.linkedin img{
+    width: 40px;
+    height: 40px;
+}
+.github img{
+    width: 40px;
+    height: 40px;
+}
+.mail{
+    display: flex;
+}
+.emoji-mail img{
+    width: 40px;
+    height: 40px;
+}
+.email{
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    padding-top: 6px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    height: 130px;
+}
+.social{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    justify-content: left;
+}
+.skils{
+    width: 90%;
+    margin: 100px auto 150px auto;
+}
+.skils h1{
+    text-align: center;
+}
+.list{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.list-one{
+    width: 100%;
+   
+}
+.list-two{
+    width: 100%;
+ 
+}
+.creative{
+    width: 90%;
+    background-color: rgb(156,120,211, 0.8);
+    border-radius: 8px;
+    height: 50px;
+    box-shadow: 1px 2px 2px rgb(156,120,211);
+  
+}
+.creative p{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+   padding-top: 10px;
+ 
+}
+.communication{
+    width: 90%;
+    background-color: rgb(156,120,211, 0.8);
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 50px;
+    box-shadow: 1px 2px 2px rgb(156,120,211);
+}
+.communication p{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.flexible{
+    width: 90%;
+    background-color: rgb(156,120,211, 0.8);
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 50px;
+    box-shadow: 1px 2px 2px rgb(156,120,211);
+}
+.flexible p{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.decision{
+    width: 90%;
+    background-color: rgb(156,120,211, 0.8);
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 50px;
+    box-shadow: 1px 2px 2px rgb(156,120,211);
+}
+.decision p{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.empathy{
+    width: 90%;
+    background-color: rgb(156,120,211, 0.8);
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 50px;
+    box-shadow: 1px 2px 2px rgb(156,120,211);
+}
+.empathy p{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.team{
+    width: 90%;
+    background-color: rgb(156,120,211, 0.8);
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 50px;
+    box-shadow: 1px 2px 2px rgb(156,120,211);
+}
+.team p{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.emotional{
+    width: 90%;
+    background-color: rgb(156,120,211, 0.8);
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 50px;
+    box-shadow: 1px 2px 2px rgb(156,120,211);
+}
+.emotional p{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.critical{
+    width: 90%;
+    background-color: rgb(156,120,211, 0.8);
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 50px;
+    box-shadow: 1px 2px 2px rgb(156,120,211);
+}
+.critical p{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.project{
+    width: 90%;
+    margin: auto;
+}
+.project h1{
+    background-color: white;
+    text-align: center;
+} 
+.site-one{
+    width: 80%;
+    margin: auto;
+}
+.site-one  h5{
+    font-size: 23px;
+    color: rgb(34, 33, 33);
+}
+.site-two{
+    width: 80%;
+    margin: auto;
+}
+.site-two  h5{
+    font-size: 23px;
+    color: rgb(34, 33, 33);
+}
+a{
+    text-decoration: none;
+}
