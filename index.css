@@ -44,6 +44,7 @@ li{
     text-align: center;
     color: white;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .certificat h3{
     text-align: center;
@@ -52,6 +53,7 @@ li{
     letter-spacing: 3px;
     position: absolute;
     bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .photo{
     margin-top: 100px;
@@ -99,6 +101,7 @@ h4{
     background-color: rgb(179,166,223, 0.6);
     border-radius: 20px 20px 0px 0px;
     margin-left: 5px;
+    
 }
 .german-course{
     display: flex;
@@ -119,6 +122,7 @@ h4{
     margin:auto; 
     position: absolute;
     bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 .dipl-img{
@@ -133,6 +137,7 @@ h4{
     text-align: center;
     color: white;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .link{
     height: 50px;
@@ -202,6 +207,7 @@ h4{
 }
 .insurance h4{
     text-align: right;
+    color: gray;
 }
 .insurance h3{
     text-align: right;
@@ -230,6 +236,7 @@ h4{
 }
 .SANATORIUM h4{
     text-align: right;
+    color: gray;
 }
 .studing{
     width: 40%;
@@ -258,7 +265,7 @@ footer{
 }
 .contact{
     display: flex;
-    width: 40%;
+    width: 90%;
     margin: auto;
     justify-content: space-between; 
 }
@@ -334,16 +341,6 @@ footer{
 .emoji{
     margin: auto;
 }
-footer{
-    width: 100%;
-    display: flex;
-}
-.social{
-    display: flex;
-    width: 40%;
-    margin: auto;
-    justify-content: space-between;
-}
 .skils{
     width: 90%;
     margin: 100px auto 150px auto;
@@ -374,8 +371,9 @@ footer{
     color: white;
     text-align: center;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 500;
     padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .communication{
     width: 90%;
@@ -389,8 +387,9 @@ footer{
     color: white;
     text-align: center;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 500;
     padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .flexible{
     width: 90%;
@@ -404,8 +403,9 @@ footer{
     color: white;
     text-align: center;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 500;
     padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .decision{
     width: 90%;
@@ -419,8 +419,9 @@ footer{
     color: white;
     text-align: center;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 500;
     padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .empathy{
     width: 90%;
@@ -433,8 +434,9 @@ footer{
     color: white;
     text-align: center;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 500;
     padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .team{
     width: 90%;
@@ -448,8 +450,9 @@ footer{
     color: white;
     text-align: center;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 500;
     padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .emotional{
     width: 90%;
@@ -463,8 +466,9 @@ footer{
     color: white;
     text-align: center;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 500;
     padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .critical{
     width: 90%;
@@ -478,8 +482,9 @@ footer{
     color: white;
     text-align: center;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 500;
     padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .project{
     width: 90%;
@@ -553,11 +558,8 @@ a{
         width: auto;
         flex-direction: column;
     }
-    .social{
-        flex-direction: column;
-    }
     .photo img{
-width: 200px;
+        width: 200px;
     }
     .photo {
         margin-top: 30px;
@@ -594,6 +596,29 @@ width: 200px;
     .social{
         width: auto;
         justify-content: start;
+    }
+    .house{
+        width: 50%;
+        margin: auto;
+    }
+    .phone{
+        width: 50%;
+        margin: auto;
+    }
+    .emoji{
+        margin: 0px;
+    }
+    .mail{
+        width: 50%;
+        margin: auto;
+    }
+    .github{
+        width: 10%;
+        margin: auto;
+    }
+    .linkedin{
+        width: 10%;
+        margin: auto;
     }
 }
 
