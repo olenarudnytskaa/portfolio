@@ -168,7 +168,7 @@ h4{
     position: absolute;
     bottom: 0;
 }
-.total{
+.cv{
     width: 80%;
     margin: 100px auto 150px auto;
     display: flex;
@@ -355,10 +355,17 @@ footer{
 }
 .list-one{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
    
 }
 .list-two{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .creative{
     width: 90%;
@@ -372,8 +379,8 @@ footer{
     text-align: center;
     font-size: 23px;
     font-weight: 500;
-    padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 12px 0;
 }
 .communication{
     width: 90%;
@@ -388,8 +395,8 @@ footer{
     text-align: center;
     font-size: 23px;
     font-weight: 500;
-    padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 12px 0;
 }
 .flexible{
     width: 90%;
@@ -404,8 +411,8 @@ footer{
     text-align: center;
     font-size: 23px;
     font-weight: 500;
-    padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 12px 0;
 }
 .decision{
     width: 90%;
@@ -420,8 +427,8 @@ footer{
     text-align: center;
     font-size: 23px;
     font-weight: 500;
-    padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 12px 0;
 }
 .empathy{
     width: 90%;
@@ -435,8 +442,8 @@ footer{
     text-align: center;
     font-size: 23px;
     font-weight: 500;
-    padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 12px 0;
 }
 .team{
     width: 90%;
@@ -451,8 +458,8 @@ footer{
     text-align: center;
     font-size: 23px;
     font-weight: 500;
-    padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 12px 0;
 }
 .emotional{
     width: 90%;
@@ -467,8 +474,8 @@ footer{
     text-align: center;
     font-size: 23px;
     font-weight: 500;
-    padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 12px 0;
 }
 .critical{
     width: 90%;
@@ -483,8 +490,8 @@ footer{
     text-align: center;
     font-size: 23px;
     font-weight: 500;
-    padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 12px 0;
 }
 .project{
     width: 90%;
